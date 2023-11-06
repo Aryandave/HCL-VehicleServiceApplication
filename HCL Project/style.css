@@ -1,0 +1,100 @@
+.hide {
+    display: none;
+}
+
+body {
+    cursor: default;
+}
+
+
+/* Login and signup page */
+
+#login-container {
+    /* border: 2px solid ; */
+    /* margin-top: 50%; */
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 33px black;
+}
+
+@media (max-width: 680px) {
+    #login-container {
+        width: 80%;
+    }
+}
+
+#login label {
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: #0b5ed7;
+}
+
+
+/* after login */
+
+#bal-container {
+    font-weight: bolder;
+    font-size: 78px;
+    text-align: center;
+}
+
+#logTable {
+    font-size: 20px;
+    text-align: center;
+}
+
+tr {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    height: 70px;
+    border: solid black 1.5px;
+}
+
+.add {
+    background-color: #00800076;
+    font-weight: 600;
+}
+
+.add:hover {
+    background-color: #044f04a3;
+}
+
+.deduct {
+    background-color: #ff000072;
+    font-weight: 600;
+}
+
+.deduct:hover {
+    background-color: #af11119e;
+    font-weight: 600;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border-radius: 35px;
+    padding: 5px;
+    padding-bottom: 8px;
+    transition: background-color .2s ease-out;
+}
+
+.delete-btn:hover {
+    background-color: #3f3f40;
+}
+
+.delete-btn:active {
+    background-color: #28292C;
+}
+
+.table tr, .table td {
+    border: none;
+}
